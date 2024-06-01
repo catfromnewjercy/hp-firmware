@@ -31,11 +31,17 @@
 
 *	Переходим в System Options
 *	Далее Server Availability
+
 Wake on Lan – Enable
+
 Post F1 Prompt – 2 sec
+
 Automatic Power-On – Always Power On
+
 *	Date and Time
+
 Выставляем часовой пояс на +5
+
 *	Сохраняем настройки и перезагружаемся.
 *	На экране инициализации нажимаем F11 (Boot Menu)
 *	Запускаемся с ISO
