@@ -1,3 +1,10 @@
+*   Клонируем репозиторий
+
+```console
+~$ git clone https://github.com/catfromnewjercy/hp-firmware.git
+```
+
+
 *   Для установки обновлений Bios/iLO, необходимо перейти на адрес iLO (https://x.x.x.x/, где x.x.x.x - ip адресс)
 *   После авторизации переходим во вкладку Firmware & OS Software
 
