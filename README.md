@@ -1,4 +1,15 @@
-Устанавливаем сначала BIOS, потом ILO
+*   Для установки обновлений Bios/iLO, необходимо перейти на адрес iLO (https://x.x.x.x/, где x.x.x.x - ip адресс)
+*   После авторизации переходим во вкладку Firmware & OS Software
+
+![Alt text](/instruction/ilo_firmware_screen1.png?raw=true "iLO Screen")
+
+*   Скачиваем архив из репозитория и распаковываем
+*   Нажимаем на Update Firmware
+*   Выбираем Local file и в меню "Выберите файл" указываем путь сначала до файла обновления BIOS (U46_*.flash)
+
+![Alt text](/instruction/ilo_firmware_upload.png?raw=true "Upload Screen")
+
+* Обязательно устанавливаем галочку "Also store in iLO Repository
 
 *	Подключаем монитор и клавитуру к сервер, включаем питание.
 *	При виде экрана инициализации, необходимо вызвать меню “System Utilities” клавишей F9
