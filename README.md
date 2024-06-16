@@ -29,6 +29,10 @@
 
 ![Alt text](/instruction/rbsu_screen.png?raw=true "RBSU Screen")
 
+*   Далее, нам необходимо отключить Hyperthreading
+
+Заходим в System Utilities, System Configuration > BIOS/Platform Configuration (RBSU) > Processor Options > Intel (R) Hyperthreading Options. Преключаем в Disable. Сохраняемся.
+
 *	Переходим в System Options
 *	Далее Server Availability
 
@@ -37,11 +41,3 @@ Wake on Lan – Enable
 Post F1 Prompt – 2 sec
 
 Automatic Power-On – Always Power On
-
-*	Date and Time
-
-Выставляем часовой пояс на +5
-
-*	Сохраняем настройки и перезагружаемся.
-*	На экране инициализации нажимаем F11 (Boot Menu)
-*	Запускаемся с ISO
